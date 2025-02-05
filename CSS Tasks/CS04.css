@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 3px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00a1e5;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 40px;
+}
+
+
+.box {
+    width: 150px;
+    height: 100px;
+    background-color: #00a1e5;
+    border: 3px solid black;
+}
+
+
+.box.orange {
+    border-color: rgb(244, 11, 11);
+}
+
+
+.box.green {
+    border-color: green;
+}
+
+
+.box.white {
+    background-color: white;
+    border-color: rgb(208, 238, 13);
+}

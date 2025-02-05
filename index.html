@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>My First Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benedict Solo P. Dimalanta - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
- <h1>Hi! I am Benedict Solo P. Dimalanta</h1>
- <p><a href="DimalantaExplorePHTours.html" target="_blank">1. Visit Explore-PH-Tours</a></p>
- <p><a href="2nd%20Term%20Course%20Schedule.html" target="_blank">2. 2nd Term Course Schedule</a></p>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <p>Hello! My name is Benedict Solo P. Dimalanta, and I study computer science. I enjoy coding, learning about new technologies, and working on projects that enhance my software development skills. I'm always open to tech-related conversations and opportunities.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill"><i class="fab fa-html5"></i><p>HTML</p></div>
+            <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+            <div class="skill"><i class="fab fa-js"></i><p>JavaScript</p></div>
+            <div class="skill"><i class="fas fa-database"></i><p>MySQL</p></div>
+            <div class="skill"><i class="fab fa-java"></i><p>Java</p></div>
+            <div class="skill"><i class="fab fa-python"></i><p>Python</p></div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievements-container">
+            <div class="achievement"><img src="certificate1.png" alt="Certificate 1"></div>
+            <div class="achievement"><img src="certificate2.jpeg" alt="Certificate 2"></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3><a href="/Users/crystalligence/Desktop/Github/starwarsSOLO.github.io/HTML Tasks/html tasks.html" target="_blank">HTML Projects</a></h3>
+            </div>
+            <div class="project-card">
+                <h3><a href="/Users/crystalligence/Desktop/Github/starwarsSOLO.github.io/CSS Tasks/css tasks.html" target="_blank">CSS Projects</a></h3>
+            </div>
+            <div class="project-card">
+                <h3><a href="/Users/crystalligence/Desktop/Github/starwarsSOLO.github.io/JS Tasks/js tasks.html" target="_blank">JavaScript Projects</a></h3>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: bsDimalanta@mcm.edu.ph</p>
+        <p>Phone: +63 993 341 4565</p>
+        <div class="contact-links">
+            <a href="https://github.com/starwarsSOLO" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/benedict-solo-dimalanta-b45990298/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Benedict Solo P. Dimalanta | All rights reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
