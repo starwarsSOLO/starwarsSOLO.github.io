@@ -208,3 +208,43 @@ footer {
 .contact-links a:hover {
     color: #e74c3c;
 }
+.achievement img[src="final project.png"] {
+    width: 400px; /* Increase size */
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement img[src="final project.png"]:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.final-project-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.final-project-container img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.final-project-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.final-project-description {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin-top: 15px;
+    line-height: 1.6;
+    text-align: center;
+    font-weight: 500;
+}
